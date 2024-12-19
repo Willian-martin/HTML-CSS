@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>@font-face {
+        font-family: pirat;
+        src: url(fonts/PirataOne-Regular.ttf) format(truetype) ;
+    }
+        @font-face {
+            font-family:Love ;
+            src: url("fonts/Mf\ Love\ Song.ttf") format('opentype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+            Tipos de format
+            - opentype (otf)
+            - truetypec (ttf)
+            -  embedded-opentype 
+            -  truetype-aat (Apple advanced Typography)
+            - svg
+            */
+        }
+        body{
+            font-family:pirat ,Arial, Helvetica, sans-serif;
+            font-weight: normal
+            ;
+        }
+        h1{
+            font-family: 'Love','Times New Roman', Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae officiis iure illum perferendis esse unde vero voluptas voluptates animi, blanditiis hic iusto quisquam adipisci dicta architecto facilis natus distinctio fugit.</p>
+    
+</body>
+</html>

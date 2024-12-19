@@ -1,0 +1,33 @@
+@charset "utf8";
+/* tudo que em HTML é ID em CSS é # cerquilha(só pode um elemento por pagína)
+ tudo que em HTML é CLASS em CSS é . ponto( pode varios elementos)
+
+*/
+body{
+    background-color:#d6fde9;
+}
+h1{
+    color: #1e402f;
+}
+h1#principal{
+    text-align: center;
+    color: white;
+    background-color: #3c805e;
+}
+h2{
+    color: #3c805e;
+}
+
+.basico{
+  color: #3c805e;
+ 
+}
+.intermediario{
+   color: #80723c;
+}
+.avancado{
+   color: #803c3c;
+}
+.destaque{
+    background-color: rgba(131, 131, 84, 0.436);
+}
